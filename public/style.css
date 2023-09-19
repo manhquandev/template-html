@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Be Vietnam Pro", sans-serif !important;
+}
+.hr {
+  text-align: center;
+  position: relative;
+  font-size: 0.9rem;
+}
+.hr::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  right: 0;
+  height: 1px;
+  background: #cccccc;
+  top: 50%;
+}
+
+.hr::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  left: 0;
+  height: 1px;
+  background: #cccccc;
+  top: 50%;
+}
+.error {
+  font-size: 0.8rem;
+  color: var(--bs-danger);
+  height: 16px;
+  margin-top:5px ;
+}
+.success {
+  font-size: 0.8rem;
+  color: var(--bs-success);
+  height: 16px;
+  margin-top:5px ;
+}
+
+.background{
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
